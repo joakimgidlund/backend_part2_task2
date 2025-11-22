@@ -3,6 +3,8 @@
 
 Run the bash-script "build_and_run" to package the project and run the .jar.
 
+The application initializes with a set of sample data. If the database already contains any data the initialization is skipped.
+
 
 ## Supported endpoints
 
