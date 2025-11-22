@@ -16,8 +16,10 @@ Get customer Id by name:  GET   /customer-id?name=Anna
 
 All customers and their vehicles:   GET  /customers
 
-Create vehicle:  POST  /vehicles?registrationNumber=ABC123...
+Create vehicle:  POST  /vehicles?registrationNumber=DEF321&brand=Volvo&model=V70&productionYear=2007
 
 All vehicles:  GET  /vehicles
+
+Add a customer as owner to a vehicle: POST /vehicle-to-customer?customerId=3&vehicleId=1552
 
 List vehicles of brand:  GET  /vehicles-by-brand?brand=Volvo
